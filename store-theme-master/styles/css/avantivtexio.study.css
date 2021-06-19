@@ -1,0 +1,23 @@
+.modal {
+  z-index: 15;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  background-color:#f0f0f0;
+}
+
+.modal:nth-child(even),
+.modal:nth-child(odd) {
+  color: #000;
+  text-align: center;
+  padding: 50px;
+}
+
+.close {
+  display: block;
+  text-align: right;
+}

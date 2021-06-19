@@ -1,0 +1,9 @@
+{
+  "hello-world": {
+    "component": "HelloWorld"
+  },
+  "my-context-product": {
+    "component": "MyContextProduct",
+    "render": "client"
+  }
+}
